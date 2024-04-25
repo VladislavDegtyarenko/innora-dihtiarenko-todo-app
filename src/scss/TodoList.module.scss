@@ -1,0 +1,21 @@
+.todoList {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 1fr;
+  gap: 0.25rem;
+
+  h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-align: left;
+    text-transform: capitalize;
+  }
+
+  ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,16 @@
+.addTodoForm {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.errorMessage {
+  font-size: 0.875rem;
+  line-height: 1;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 0.25rem;
+  margin-left: 0.5rem;
+  color: rgb(245 110 110);
+}

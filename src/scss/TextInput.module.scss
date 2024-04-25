@@ -1,0 +1,13 @@
+.input {
+  flex-grow: 1;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  line-height: 1.25;
+  font-size: 0.875rem;
+  font-weight: 700;
+  background-color: hsl(var(--background));
+  border: solid 1px hsl(var(--muted));
+
+  &::placeholder {
+  }
+}

@@ -1,0 +1,37 @@
+.todoItem {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 0.5rem;
+  padding: 0 0.5rem;
+  max-width: calc(100% - 2.5rem);
+  cursor: pointer;
+
+  &:hover > .checkbox {
+    opacity: 0.875;
+  }
+
+  > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-size: 0.875em;
+    line-height: 1.2;
+    &.completed {
+      text-decoration: line-through;
+      opacity: 0.7;
+    }
+  }
+}
+
+.checkbox {
+  flex-shrink: 0;
+}

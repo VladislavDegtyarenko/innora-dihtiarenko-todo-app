@@ -1,0 +1,7 @@
+.todoManager {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+}
